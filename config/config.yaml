@@ -70,9 +70,9 @@ notification:
   #    - Severe: Webhook abuse leading to security incidents (malicious messages, phishing links, etc.)
   #
   webhooks:
-    feishu_url: "https://open.feishu.cn/open-apis/bot/v2/hook/7ee17c58-283f-45d5-964a-722ae27f65ef" # 飞书机器人的 webhook URL
+    feishu_url: "" # 飞书机器人的 webhook URL
     dingtalk_url: "" # 钉钉机器人的 webhook URL
-    wework_url: "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=471e1953-ed6d-47a9-821d-bba6a2067391" # 企业微信机器人的 webhook URL
+    wework_url: "" # 企业微信机器人的 webhook URL
     wework_msg_type: "markdown" # 企业微信消息类型：markdown(群机器人) 或 text(个人微信应用)
     telegram_bot_token: "" # Telegram Bot Token
     telegram_chat_id: "" # Telegram Chat ID
